@@ -1,60 +1,61 @@
 {
-   "abstract" : "File::Slurp::Affix opens a file and creates an array with an optional prefix, suffix, or both with an optional separator in your preferred encoding.",
-   "author" : [
-      "Lady Aleena <aleena@cpan.org>"
-   ],
-   "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 7.44, CPAN::Meta::Converter version 2.150010",
-   "license" : [
-      "artistic_2"
-   ],
-   "meta-spec" : {
-      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : 2
-   },
-   "name" : "File-Slurp-Affix",
-   "no_index" : {
-      "directory" : [
-         "t",
-         "inc"
-      ]
-   },
-   "prereqs" : {
-      "build" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
-      "configure" : {
-         "requires" : {
-            "ExtUtils::MakeMaker" : "0"
-         }
-      },
-      "runtime" : {
-         "requires" : {
-            "Exporter" : "0",
-            "perl" : "5.006"
-         }
-      },
-      "test" : {
-         "requires" : {
-            "Encode" : "0",
-            "File::Temp" : "0",
-            "Test::More" : "0"
-         }
+  "abstract" : "File::Slurp::Affix opens a file and creates an array with an optional prefix, suffix, or both with an optional separator in your preferred encoding.",
+  "author" : [
+    "Lady Aleena <aleena@cpan.org>"
+  ],
+  "dynamic_config" : 1,
+  "generated_by" : "ExtUtils::MakeMaker version 7.44, CPAN::Meta::Converter version 2.150010",
+  "license" : [
+    "artistic_2"
+  ],
+  "meta-spec" : {
+    "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version" : 2
+  },
+  "name" : "File-Slurp-Affix",
+  "no_index" : {
+    "directory" : [
+      "t",
+      "inc"
+    ]
+  },
+  "prereqs" : {
+    "build" : {
+      "requires" : {
+        "ExtUtils::MakeMaker" : "0"
       }
-   },
-   "resources" : {
-     "repository" : {
-       "web" : "https://github.com/LadyAleena/File-Slurp-Affix",
-       "type" : "git",
-       "url" : "https://github.com/LadyAleena/File-Slurp-Affix"
-     },
-     "bugtracker" : {
-       "web" : "https://github.com/LadyAleena/File-Slurp-Affix/issues"
-     },
-   },
-   "release_status" : "unstable",
-   "version" : "0.01_01",
-   "x_serialization_backend" : "JSON::PP version 4.04"
+    },
+    "configure" : {
+      "requires" : {
+        "ExtUtils::MakeMaker" : "0"
+      }
+    },
+    "runtime" : {
+      "requires" : {
+        "Exporter" : "0",
+        "perl" : "5.006"
+      }
+    },
+    "test" : {
+      "requires" : {
+        "Encode" : "0",
+        "File::Temp" : "0",
+        "Test::More" : "0"
+      }
+    }
+  },
+  "resources" : {
+    "repository" : {
+      "url" : "https://github.com/LadyAleena/File-Slurp-Affix",
+      "web" : "https://github.com/LadyAleena/File-Slurp-Affix",
+      "type" : "git"
+    },
+    "bugtracker" : {
+      "web" : "https://github.com/LadyAleena/File-Slurp-Affix/issues"
+    },
+    "x_twitter" => 'http://twitter.com/Lady_Aleena',
+  },
+  "release_status" : "unstable",
+  "version" : "0.01_01",
+  "x_serialization_backend" : "JSON::PP version 4.04"
 }

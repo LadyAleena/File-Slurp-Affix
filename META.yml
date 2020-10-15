@@ -1,5 +1,5 @@
 ---
-abstract: unknown
+abstract: 'File::Slurp::Affix opens a file and creates an array with an optional prefix, suffix, or both with an optional separator in your preferred encoding.'
 author:
   - 'Lady Aleena <aleena@cpan.org>'
 build_requires:
